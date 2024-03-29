@@ -16,6 +16,7 @@ public class MessageSourceTest {
     @Autowired
     MessageSource ms;
 
+
     @Test
     void helloMessage() {
         String result = ms.getMessage("hello", null, null);
